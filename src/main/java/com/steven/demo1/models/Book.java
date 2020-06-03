@@ -14,8 +14,11 @@ public class Book {
 	
 	private String title;
 	private String Isbn;
-	
-	@ManyToOne
+
+  public Book() {
+  }
+
+  @ManyToOne
 	private Publisher publisher;
 	public Publisher getPublisher() {
 		return publisher;
