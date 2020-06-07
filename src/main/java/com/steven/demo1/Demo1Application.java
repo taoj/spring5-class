@@ -1,5 +1,6 @@
 package com.steven.demo1;
 
+import com.steven.demo1.controllers.ProfileTestingController;
 import com.steven.demo1.controllers.QualifierTestController;
 
 import org.apache.catalina.core.ApplicationContext;
@@ -18,6 +19,9 @@ public class Demo1Application {
 
 	  qtc.chnGreetings();
 	  qtc.engGreetings();
+
+    ProfileTestingController profileTestingController = (ProfileTestingController) ctx.getBean("profileTestingController");
+    profileTestingController.profileTest();
 	}
 
 }
