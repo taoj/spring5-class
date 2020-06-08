@@ -1,6 +1,6 @@
 package com.steven.demo1.service;
 
-public interface IProfileTestService {
+public interface ProfileTestService {
 
   public String testProfile();
 }

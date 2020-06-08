@@ -5,7 +5,7 @@ import org.springframework.stereotype.Service;
 
 @Profile("v2")
 @Service
-public class IProfileTestServiceV2Impl implements IProfileTestService {
+public class ProfileTestServiceV2Impl implements ProfileTestService {
 
   @Override
   public String testProfile() {
